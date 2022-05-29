@@ -11,11 +11,11 @@ class Temp():
 
     def fahrenheit_to_celsius(self):
         """Convert from fahrenheit to celsius"""
-        return (self.value - 32) * 0.5556
+        return (self.value - 32) * (5/9)
 
     def celsius_to_fahrenheit(self):
         """Convert from celsius to fahrenheit"""
-        return (self.value * 1.8) + 32
+        return (self.value * (9/5)) + 32
 
 
 if __name__ == '__main__':
