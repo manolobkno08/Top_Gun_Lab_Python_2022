@@ -9,11 +9,11 @@ class Temp():
         """Initialize attributes"""
         self.value = value
 
-    def fahrenheit_to_celsius(self):
+    def fahrenheit_to_celsius(self) -> float:
         """Convert from fahrenheit to celsius"""
         return (self.value - 32) * (5/9)
 
-    def celsius_to_fahrenheit(self):
+    def celsius_to_fahrenheit(self) -> float:
         """Convert from celsius to fahrenheit"""
         return (self.value * (9/5)) + 32
 

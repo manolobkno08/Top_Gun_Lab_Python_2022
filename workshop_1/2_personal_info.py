@@ -1,11 +1,12 @@
 #!/usr/bin/python3
 
 import os
+from typing import Tuple, List, Dict
 
 
 class User():
     """User class representation"""
-    data = ()
+    data: Tuple = ()
 
     def __init__(self, name, lastname, profession, age, city, phone, email):
         """Initialize attributes"""
@@ -17,13 +18,13 @@ class User():
         self.phone = phone
         self.email = email
 
-    def store_into_tuple(self):
+    def store_into_tuple(self) -> Tuple:
         """Store the object information into the tuple."""
         User.data = User.data + (self,)
 
-    def list_of_dictionaries(self, tuple_info):
+    def list_of_dictionaries(self, tuple_info: Tuple) -> List[Dict]:
         """Show the information through of dictionaries"""
-        final_list = []
+        final_list: List = []
 
         for i in range(len(tuple_info)):
             inf_dict = {}
@@ -43,7 +44,7 @@ class User():
 
 
 if __name__ == '__main__':
-    for i in range(1, 3):
+    for i in range(1, 4):
         usr = "User " + str(i)
         print(f"Please complete the information: [{usr}]\n")
 
