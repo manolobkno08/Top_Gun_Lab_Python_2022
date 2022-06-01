@@ -5,7 +5,7 @@ class Temp():
     Temperature class representation
     """
 
-    def __init__(self, value):
+    def __init__(self, value: float):
         """Initialize attributes"""
         self.value = value
 
