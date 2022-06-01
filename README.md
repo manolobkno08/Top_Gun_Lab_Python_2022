@@ -1,1 +1,3 @@
-# Top_Gun_Lab_Python_2022
+# Top Gun Lab 2022
+
+Manuel Alejandro Gomez
