@@ -22,4 +22,4 @@ f3 = (note3 * percentage3) / 100
 total_f = f1 + f2 + f3
 total_p = percentage1 + percentage2 + percentage3
 res = total_f / total_p
-print(res)
+print(f"The average is: {res}")
