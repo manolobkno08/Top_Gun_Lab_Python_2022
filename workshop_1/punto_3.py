@@ -1,7 +1,10 @@
 #!/usr/bin/python3
 
 """
-Create a program that allows you to enter degrees Fahrenheit and display the data in degrees Celsius or change from degrees Celsius to degrees Fahrenheit (you can do either program).
+Create a program that allows you to enter
+degrees Fahrenheit and display the data in
+degrees Celsius or change from degrees Celsius
+to degrees Fahrenheit (you can do either program).
 """
 
 

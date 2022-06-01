@@ -1,7 +1,11 @@
 #!/usr/bin/python3
 
 """
-From the previous exercise, create a program to calculate the final grade of a university student. To do this, the user must enter 3 grades and the percentage value of each grade, performs and returns the average on the screen.
+From the previous exercise, create a program
+to calculate the final grade of a university
+student. To do this, the user must enter 3
+grades and the percentage value of each grade,
+performs and returns the average on the screen.
 """
 
 note1 = float(input(f"Please enter note 1: "))

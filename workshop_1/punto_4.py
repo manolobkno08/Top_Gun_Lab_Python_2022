@@ -1,7 +1,9 @@
 #!/usr/bin/python3
 
 """
-The following code pretends to average between 3 numbers, but it does not work correctly. Correct the error:
+The following code pretends to average
+between 3 numbers, but it does not work correctly.
+Correct the error:
 """
 
 number_1: int = 10
