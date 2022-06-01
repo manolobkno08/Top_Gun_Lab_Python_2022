@@ -1,5 +1,17 @@
 #!/usr/bin/python3
 
+"""
+Make a program that asks 3 users to enter personal information by keyboard, each user's information must be stored in an immutable collection structure, then display the users' information grouped in a mutable collection structure.
+
+The information to apply for is:
+a. First and last names.
+b. Occupation.
+c. Age.
+d. City.
+e. Contact number.
+f. E-mail address.
+"""
+
 import os
 from typing import Tuple, List, Dict
 

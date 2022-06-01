@@ -1,3 +1,8 @@
+"""
+You must write a program to draw two robots in second dimension.
+"""
+
+
 # R2D2
 
 print(
