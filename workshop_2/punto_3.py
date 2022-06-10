@@ -11,11 +11,11 @@ In honor of the great scientist Galilei, it would be necessary to implement an a
 """
 
 height_meters = float(input(f"Please enter the height in meters: "))
-# height_meters = height_meters * 100
 metters_count = 0
 iter = 1
 
 while metters_count <= height_meters:
-    metters_count = (((1/2) * 9.8) * (iter**2)) / 100
-    print(round(metters_count, 2))
+    metters_count = (((1/2) * 9.8) * (iter**2))
+    print(
+        f"Distance traveled per second {iter}: {round(metters_count, 2)} meters")
     iter += 1
